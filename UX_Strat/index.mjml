@@ -1,0 +1,89 @@
+<mjml>
+ 
+
+  <mj-body>
+  
+    <!--Nav-->
+    <mj-section background-color="#FFF" vertical-align="top" full-width="full-width" css-class="box-shadow">
+        <mj-image width="70%" src="logow.png"></mj-image>
+        <mj-text align="center" color="#000"  font-size="40px" font-family="Helvetica Neue">Place au nouveau!</mj-text>         
+        <mj-text align="center" color="#FFF"  font-size="20px" font-family="Helvetica Neue">Ateliers FEEL GOOD</mj-text>         
+
+    </mj-section>
+        <!--bg <mj-image src="bg7.png" full-width="full-width"/>   -->
+   
+   
+    <mj-section background-url="bgnew.png" full-width="full-width">
+    <mj-section></mj-section>
+         <!--articles-->
+    <mj-section background-color="#FFF" >
+      <mj-column width="570px">
+        <mj-text align="center" color="#000" font-size="27px" font-family="Helvetica Neue">Save the date !</mj-text>
+        <mj-spacer height="0px"/>
+      <mj-text align="center" color="#000" font-size="19px" font-family="Helvetica Neue">Le mois prochain aura lieu l’atelier Sophrologique FEEL GOOD bien-être dédié à la gestion du stress. 
+Au sein de cet atelier tu vas en apprendre davantage sur ta personne. 
+      </mj-text>
+        <mj-text align="center" color="#000" font-size="20px" font-family="Helvetica Neue">L’objectif ? Contrôler ses émotions afin de pouvoir pleinement t’épanouir!</mj-text>
+
+L’objectif ? Contrôler tes émotions afin de pouvoir pleinement t’épanouir!</mj-text>
+        <mj-button background-color="#71A39A"  border-radius="20px" href="#">En savoir plus</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section></mj-section>
+    <mj-section></mj-section>
+    
+
+     <mj-section >
+      <mj-raw>
+        <!-- Left image -->
+      </mj-raw >
+      <mj-column  background-color="#FFF"  width="270px">
+        <mj-image width="00px" src="otherplanets.png"></mj-image>
+        <mj-text align="center">
+          #tips 1        
+        </mj-text>
+        <mj-text align="center">
+          Toutes nos émotions sont naturelles. N’essaye pas de les réfouler. Il est important de pouvoir exprimer sa colère, sa peur comme sa joie. Tu peux ainsi t’exprimer à travers un sport ou un art par exemple. Nos émotions font ce que nous sommes ne l’oublie jamais.       
+        </mj-text>
+      </mj-column>
+      <mj-column background-color="#FFFFFF" width="45px" ></mj-column>
+      
+      <mj-raw>
+      
+        <!-- right paragraph -->
+      </mj-raw>
+      <mj-column background-color="#FFF" width="270px">
+        <mj-image width="00px" src="otherplanets.png"></mj-image>
+        <mj-text align="center">
+          #tips 2        
+        </mj-text>
+        <mj-text align="center">
+          A la veille d’une semaine chargée, prend une feuille et trace un trait en y laissant deux parts égales. D’un côté il y a tes objectifs à atteindre de l’autre tout ce qui te rend heureux.se (ex: manger de la glace). Au fil de la semaine tu dois accomplir toutes les tâches présentes sur l’ensemble de la liste.        </mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section></mj-section>
+
+   
+
+     
+    </mj-section>
+
+    
+
+     <mj-wrapper background-color="#FFF" full-width="full-width">
+      <mj-section>
+        <mj-column width="100%" padding="0">
+          <mj-social font-size="15px" icon-size="30px" mode="horizontal" padding="0" align="center">
+            <mj-social-element name="facebook" href="https://fr-fr.facebook.com/Mariejobsophrologue/" background-color="#A1A0A0">
+          </mj-social>
+          <mj-text color="#445566" font-size="11px" font-weight="bold" align="center">
+            Vous ne pouvez pas voir ce message ? 
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+  </mj-body>
+</mjml>
