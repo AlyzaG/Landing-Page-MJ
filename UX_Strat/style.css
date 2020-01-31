@@ -3,6 +3,7 @@ body
   margin: 0;
     padding: 0;
     min-height: 100%;
+    min-width: 100%;
 }
 
 
@@ -190,6 +191,11 @@ h1
     margin-top: 10%;
 }
 
+div.banner-sub-heading h1
+{
+    font-weight: inherit;
+}
+
 div.definition
 {
     background-color: white;
@@ -215,7 +221,7 @@ div.definition_illustration
 }
 div.definition_article
 {
-    padding: 84px 164px;
+    padding: 33px 164px;
     background-color: white;
     margin-top: 6%;
 }
@@ -318,10 +324,76 @@ input
 
 button:hover{background:#78788c;color:#fff}
 
-/*____________Footer____________*/
-footer
+/*____________Responsive____________*/
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
+@media screen and (max-width: 360px)
+
 {
-    background-color: whitesmoke;
-    width: 100%;
-    height: 365px;
+    .header {
+        background-color: #fff;
+        width: 100%;
+        /* min-height: 68vh; */
+        width: 129%;
+    }
 }
+
+    /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+    @media all and (min-width: 1024px) and (max-width: 1280px)
+    {}
+
+        /* Sur les téléviseurs */
+        @media tv
+        {
+
+        }
+
+            /* Sur tous types d'écrans orientés verticalement */
+            @media all and (orientation: portrait)
+            {
+                div.header img.back
+                {
+                    height: 580px;
+                    float: right;
+                    margin-top: 8%;
+                    /* margin-right: 5%; */
+                    /* margin-left: 26%; */
+                }
+
+                .banner-heading
+                {
+                    font-family: Roboto, sans-serif;
+                    font-size: 32px;
+                    margin-bottom: 25px;
+                    color: #000;
+                    letter-spacing: 5px;
+                }
+                .header {
+                    background-color: #fff;
+                    width: 100%;
+                    height: 100px;
+                    /* min-height: 68vh; */
+                    min-height: 660px;
+                }
+
+                div.definition_illustration
+                {
+                   display: none;
+                }
+
+                div.bienfaits_article {
+                    width: 50%;
+                    height: 100%;
+                    background-color: white;
+                    padding: 55px 24px;
+                }
+
+                section.newsletters
+                {
+                    margin-top: 5%;
+                }
+
+                .arrow, .lift
+                {
+                    display: none;
+                }
+            }
